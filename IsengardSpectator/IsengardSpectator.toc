@@ -1,0 +1,47 @@
+## Interface: 30300
+## Title:|cFF404040[|r|cFFFFFFFFIsengard|r|cFF404040]|r |cFFFFFFFFArena Spectator
+## Author: Infbelial (server side), Merci aka loTEDve (client side)
+## Version: 2.0.0
+## Notes: Аддон, обеспечивающий интерфейс спектатора арены сервера isengard-wow.com
+## Notes-ruRU: Аддон, обеспечивающий интерфейс спектатора арены сервера isengard-wow.com
+## eMail: loTEDve@GMail.CoM
+## URL: http://isengard-wow.com/
+## DefaultState: Enabled
+## LoadOnDemand: 0
+Textures\Textures.lua
+Sounds\Sounds.lua
+
+Classes\Stack.lua
+Classes\HealthBar.lua
+Classes\PowerBar.lua
+Classes\CastBar.lua
+Classes\AuraIcon.lua
+Classes\EnrageOrb.lua
+Classes\ClickIcon.lua
+Classes\SpellIcon.lua
+Classes\Nameplate.lua
+
+Interface\TargetFrame.lua
+Interface\CastFrame.lua
+Interface\AuraFrame.lua
+Interface\SpellFrame.lua
+Interface\SmallFrame.lua
+Interface\BindFrame.lua
+Interface\Nameplates.lua
+Interface\CooldownFrame.lua
+Interface\TeamFrame.lua
+Interface\TopFrame.lua
+Interface\UpdateFrame.lua
+
+Handlers\Message.lua
+
+Workers\Control.lua
+Workers\Cast.lua
+Workers\Spec.lua
+Workers\Interface.lua
+Workers\Player.lua
+Workers\Data.lua
+Workers\Tooltip.lua
+Workers\Gossip.lua
+
+IsengardSpectator.lua
